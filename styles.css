@@ -26,6 +26,7 @@
 body{
     margin:0;
     background-color: var(--blue700);
+    font-family: "Roboto", system-ui, sans-serif;
 }
 .page {
     min-height: 100vh;
@@ -54,9 +55,40 @@ body{
   }
 
   .input {
-    border: 1px solid #ccc;
+    border: 1px solid var(--grey);
+    width: 100%;
+    padding:14px 16px;
+    border-radius: 8px;
+    font:inherit;
+    color: var(--blue800);
+    box-sizing: border-box;
   }
 
+  .input:hover{
+    border-color: var(--blue800);
+  }
+
+  .input:focus-visible{
+    outline: none;
+    border-color: var(--blue800);
+    box-shadow: 0 0 0 3px rgba(36, 39, 66, 0.18);
+
+  }
+
+.form_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+
+.label {
+font-size: 12px;
+font-weight: 700;
+color: var(--blue800);
+
+}
   .error{
     margin:0;
     font-size: 12px;
@@ -135,4 +167,50 @@ body{
     }
   }
   
+  .form {
+    display: grid;
+    gap:16px;
+  }
+
+  .input, .button {
+    width: 100%;
+  }
+
+  .benefits{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--space-500) 0;
+    display: grid;
+    gap:10px;
+  }
+
+  .benefits li {
+    padding-left: 32px;
+    position: relative;
+    line-height: 1.4;
+  }
+
+  .button {
+    border: 0;
+    padding:16px;
+    border-radius: 8px;
+    background-color: var(--blue800);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+  }
   
+  .button:hover{
+    background: var(--gradient-primary);
+    box-shadow: 0 12px 24px rgba(255, 106, 58, 0.35);
+  }
+
+  .button:active{
+    background: var(--gradient-primary);
+    box-shadow: 0 12px 24px rgba(255, 106, 58, 0.35);
+  }
+
+  .button:focus-visible{
+    outline:3px solid #ff6a3a;
+    outline-offset: 3px;
+  }

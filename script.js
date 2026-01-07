@@ -7,7 +7,6 @@ const successCard = document.getElementById("successCard");
 const successEmail = document.getElementById("successEmail");
 const dismissBtn = document.getElementById("dismissBtn");
 
-console.log({ form, emailInput, emailError, signupCard, successCard, successEmail, dismissBtn });
 
 function showError (message ){
     emailError.textContent= message;
