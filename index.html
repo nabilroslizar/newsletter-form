@@ -8,9 +8,9 @@
 
     <title>Newsletter Sign Up Form</title>
 </head>
-<body>
+<body class="page">
     <!--SIGN UP CARD-->
-    <div class="card">
+    <div class="card" id="signupCard">
         <div class="card-content">
             <h1>Stay Updated</h1>
             <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -44,11 +44,11 @@
             <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration"/>
         </div>
     </div>
-    <!--SUCESS MESSAGE-->
-    <div class="success-card">
+    <!--SUCCESS MESSAGE-->
+    <div class="success-card hidden" id="successCard">
         <img src="assets/images/icon-success.svg" alt="tickIcon"/>
         <h1>Thanks for subscribing</h1>
-        <p>A confirmation email has been sent to <strong> ash@loremcompany.com </strong> Please open it and click the button inside to confirm your subscription</p>
+        <p>A confirmation email has been sent to <strong id="successEmail"> ash@loremcompany.com </strong> Please open it and click the button inside to confirm your subscription</p>
         <button class="button" id="dismissBtn" type="button"> Dismiss message</button>
     </div>
 
