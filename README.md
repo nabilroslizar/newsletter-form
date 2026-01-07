@@ -12,4 +12,10 @@ NEWSLETTER SIGNUP FORM
     - show error if invalid email
     - otherwise switch to success screen + show their email
     - dismiss button returns to form
--Step 4 : Real Layout + Responsiveness
+- Step 4 : Real Layout + Responsiveness
+    - layout wrapper 
+    - Responsive design
+    - active states
+    - Typography
+    - Visual Polish
+- Step 5 : Deploy
