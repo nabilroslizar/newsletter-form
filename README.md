@@ -1,4 +1,4 @@
-NEWSLETTE SIGNUP FORM
+NEWSLETTER SIGNUP FORM
 
 - Step 0 - Project Structure 
 - Step 1 - Build the HTML
